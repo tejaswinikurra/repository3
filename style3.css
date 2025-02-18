@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(230, 109, 109, 0.406);
+}
+#mylable{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    color: rgba(0, 0, 0, 0.986);
+}
+#btn{
+    text-align: center;
+}
+.button{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border-style:dotted;
+    /* border-top-color: aquamarine; */
+    border:solid burlywood 3px;
+    font-size: 3em;
+    color: black;
+    background-color: rgb(197, 80, 80);
+    cursor: pointer;
+    transition:background-color 0.25s ;
+}
+.button:hover{
+    background-color: rgb(151, 4, 4)
+}
