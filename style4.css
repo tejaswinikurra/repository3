@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color:bisque;
+}
+#mybtn{
+    font-size:3em;
+    border-radius: 10px;
+    background-color: cadetblue;
+    color:black;
+}
+.lables{
+    font-size: 3em;
+}
