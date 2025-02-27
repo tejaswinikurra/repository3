@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+section{
+    background-color: rgb(107, 184, 219);
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & .circle{
+        width: 400px;
+        height: 400px;
+        background-color: rgb(107, 184, 219);
+        border-radius: 300px;
+        border: 40px solid rgb(240, 118, 139);
+        position: relative;
+
+        .dot{
+         width:40px;
+         height: 40px;
+         background-color: white;
+         border-radius: 50%;
+         position: absolute;
+         /* left: -40px; */
+         top: 50%;
+         transform: translate(-100%, -50%);
+         animation: ani 5s linear infinite;
+         transform-origin: 200px;
+        }
+    }
+}
+
+@keyframes ani{
+    0%{
+        transform: translate(-100%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-100%, -50%) rotate(360deg);
+    }
+}
